@@ -1,0 +1,153 @@
+@media screen and (max-width: 992px) {
+	.container {
+		max-width: 768px;
+	}
+	.home-img img {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		max-width: 576px;
+	}
+	#menu-btn {
+		display: inline;
+		z-index: 1;
+	}
+	.navbar {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		top: 0;
+		right: -100%;
+		background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.navbar.active {
+		right: 0;
+	}
+	.navbar-item {
+		margin: 15px 0;
+	}
+	.navbar-link {
+		font-size: 18px;
+	}
+	.home {
+		padding: 60px 0 90px;
+	}
+	.home-content {
+		text-align: center;
+	}
+	.section {
+		padding-top: 50px;
+	}
+	.section-content h2 {
+		font-size: 35px;
+  		line-height: 40px;
+  		margin: 20px 0;
+	}
+	.section-img img {
+		width: 100%;
+	}
+	.work {
+		padding: 20px 0;
+	}
+	.work-card,
+	.menu-box {
+		flex-direction: column;
+	}
+	.work-card:nth-child(even),
+	.menu-box:nth-child(even){
+  		flex-direction: column;
+	}
+	.work-img img,
+	menu-img img {
+		margin-top: 20px;
+		width: 100%;
+	}
+	.card-content h3 {
+		font-size: 30px;
+  		line-height: 40px;
+  		margin: 15px 0;
+	}
+	.service-wrap {
+		flex-wrap: wrap;
+	}
+	.service {
+		padding: 40px 0;
+	}
+	.service-box {
+		margin: 20px 0;
+	}
+	.menu-content p {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.partners-wrap {
+		padding: 0 25px;
+	}
+	.partners-wrap img {
+		width: 110%;
+	}
+	.started {
+		padding: 50px 0;
+	}
+	.footer-link {
+		 grid-template-columns: repeat(3, 1fr);
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.container {
+		max-width: 450px;
+	}
+	.home-title {
+		font-size: 60px;
+		line-height: 60px;
+	}
+	.home-text {
+		font-size: 25px;
+		line-height: 30px;
+		margin-bottom: 40px;
+	}
+	.section-content h2 {
+		font-size: 24px;
+  		line-height: 40px;
+	}
+	.swiper-slide i {
+		margin-bottom: 50px;
+	}
+	.swiper-slide p {
+	    font-weight: 400;
+	    font-size: 20px;
+	    line-height: 30px;
+	    color: #6B6B6B;
+	    margin-bottom: 18px;
+  }
+  .started-content h4 {
+  	text-align: center;
+  }
+  .buttons {
+  	flex-direction: column;
+  }
+  .btn-light {
+  	margin-left: 0;
+  	margin-top: 10px;
+  }
+  .contact-form form {
+  	margin: 0 15px;
+  }
+  .footer {
+  	padding: 40px 0;
+  }
+  .footer-link {
+	grid-template-columns: repeat(2, 1fr);
+	}
+	.footer-link a {
+		margin: 10px 30px;
+	}
+}
